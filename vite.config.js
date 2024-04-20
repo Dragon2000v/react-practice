@@ -6,6 +6,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
 // eslint-disable-next-line no-irregular-whitespace
   plugins: [react()],
+base: "/react-practice/",
 // eslint-disable-next-line no-irregular-whitespace
   build: {
 // eslint-disable-next-line no-irregular-whitespace

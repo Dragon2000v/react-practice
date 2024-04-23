@@ -1,9 +1,9 @@
 export const BookList = ({ books }) => {
   return (
     <ul>
-      {books.map(book => (
-        <li key={book.id}>{book.name}</li>
-      ))}
+      {books.map((books, index) => {
+        return <li key={index}>{books.name}</li>;
+      })}
     </ul>
   );
 };
